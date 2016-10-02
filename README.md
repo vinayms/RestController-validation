@@ -11,3 +11,8 @@ App details :
 Rest Service.
 Spring Boot.
 
+To run the application:
+run : VinsValidatedDemoApplication.java
+url : http://http://localhost:8080/rules
+
+
