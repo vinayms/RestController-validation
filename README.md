@@ -15,6 +15,14 @@ To run the application:
 
 run : VinsValidatedDemoApplication.java
 
-url : http://localhost:8080/rules
+url :GET:  http://localhost:8080/rules?merchant=test
+
+POST,PUT :  http://localhost:8080/rules
+
+Request : 
+{"ruleId":"somthing",
+"ruleName":"rule_name",
+"ruleDescription":"test rule from controller",
+"merchant":"someone"}
 
 
